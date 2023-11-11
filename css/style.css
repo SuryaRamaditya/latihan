@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A73121;
+    font-family: 'Franklin Gothic';
+    color: #DAD4B5;
+}
+
+h3 {
+  color: black;
+  margin-left: 14%;
+  margin-right: 72%;
+  margin-top: 5%;
+  background-color: #A8A196;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #601d14;
+}
+
+img {
+  width: 20%;
+}
+
+.icon {
+  color: black;
+}
+
+.rec {
+  color: black;
+  background-color: #DAD4B5;
+  margin-left: 25%;
+  margin-right: 60%;
+  border-radius: 8px;
+}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DAD4B5;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #ab6a61;
+  }
+
+  /* search bar */
+.topnav .search-container {
+    margin-right: 10rem;
+  }
+
+  .topnav{
+    justify-content: space-around;
+  }
+  
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+
+  .nav-contain{
+    display: flex;
+  }
+  
+.topnav .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+      float: none;
+    }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+  .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+/* end search bar */
+/* end navbar */
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* game page */
+.cyber {
+    width: 40%;
+    margin-left: 25%;
+    border-radius: 6px;
+    box-shadow: 15px 15px 25px #601d14;
+    transition: transform .2s;
+  }
+
+.cyber:hover {
+    transform: scale(1.1); 
+  }
+
+.r_games1 {
+    margin-left: 14%;
+    border-radius: 6px;
+    box-shadow: 10px 10px 15px #601d14;
+    transition: transform .2s;
+  }
+
+.r_games1:hover {
+    transform: scale(1.1);
+  }
+  
+.r_games2 {
+    margin-left: 1.5%;
+    border-radius: 6px;
+    box-shadow: 10px 10px 15px #601d14;
+    transition: transform .2s;
+  }
+
+.r_games2:hover {
+    transform: scale(1.1);
+  }
+
+.r_games3 {
+    margin-left: 1.5%;
+    border-radius: 6px;
+    box-shadow: 10px 10px 15px #601d14;
+    transition: transform .2s;
+  }
+
+.r_games3:hover {
+    transform: scale(1.1);
+  }
+  
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#47140e;
+    color: white;
+    text-align: center;
+ }
